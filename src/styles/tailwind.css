@@ -1,0 +1,32 @@
+/* Tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply px-5 xl:px-0 w-full xl:w-4/5 max-w-[1440px] mx-auto;
+  }
+
+  .container-fluid {
+    @apply px-5 w-full max-w-[1440px] mx-auto;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl font-bold leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-bold leading-tight;
+  }
+
+  h4 {
+    @apply text-2xl font-light leading-tight;
+  }
+}

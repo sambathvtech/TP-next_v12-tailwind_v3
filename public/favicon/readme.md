@@ -1,0 +1,1 @@
+Add image meta SEO in this folder
