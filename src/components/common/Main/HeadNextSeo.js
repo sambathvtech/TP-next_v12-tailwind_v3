@@ -51,10 +51,10 @@ export default function HeadNextSeo({ dataSource }) {
                 }))
               : [
                   {
-                    url: `${getDomain()}/images/android-chrome-512x512.png`,
+                    url: `${getDomain()}/favicon/android-chrome-512x512.png`,
                   },
                 ],
-          site_name: 'Fachai',
+          site_name: 'Example',
           type: 'website',
         }}
         twitter={{
