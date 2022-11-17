@@ -5,4 +5,4 @@ export const getDomain = () =>
 
 export const getCMSDomain = () => process?.env?.NEXT_PUBLIC_CMS_URL;
 
-export const getGAID = () => process?.env?.NEXT_PUBLIC_GA_ID || 'G-8QW7SZFY9K';
+export const getGAID = () => process?.env?.NEXT_PUBLIC_GA_ID || '';
